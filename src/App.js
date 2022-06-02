@@ -12,6 +12,7 @@ import {
   Pyramid,
   Customers,
   Kanban,
+  Line,
   Area,
   Bar,
   Pie,
@@ -71,7 +72,7 @@ const App = () => {
               {/*Apps*/}
               <Route path="/kanban" element={<Kanban />} />
               <Route path="/editor" element={<Editor />} />
-              <Route path="/calender" element={<Calender />} />
+              <Route path="/calender" element={<Calendar />} />
               <Route path="/color-picker" element={<ColorPicker />} />
 
               {/*Charts*/}
